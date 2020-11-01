@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>form validation</title>
+</head>
+<body>
+ <header>
+<section class="title">
+    <h1>learn python for free</h1>
+</section>
+       <article>
+           <h2>register to get free access</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim placeat, officia corrupti natus quasi ex magni. Soluta distinctio, eius voluptate provident nam veniam sint ipsa mollitia fugiat ex eum.</p>
+       </article>
+    
+       <section class="news-letter">
+       
+       <div class="news">
+        <h2>subscribe to get news letter</h2>
+        <input type="email" name="news-letter" id="news" form="myform">
+        <button id="subscribe">subscribe</button>
+       </div>
+           
+       </section>
+ </header>
+ <main>
+     <section class="form-container">
+         <h2>register now</h2>
+         <form action="" novalidate>
+             <section class="username">
+                 <label for="username" id="username-label">username</label>
+                   <input type="text" name="username" id="username" placeholder="username" class="">
+                   <small></small>
+                  </section>
+                  <section class="email">
+                    <label for="email" id="email-label">email</label>
+                      <input type="email" name="email" id="email" placeholder="email id">
+                      <small></small>
+                     </section>
+                    <section class="password">
+                    <label for="password" id="password-label">password</label>
+                     <input type="password" name="password" id="password" placeholder="password">
+                     <small></small>
+                     </section>
+                     <section class="re-enter-password">
+                        <label for="password" id="password-confirm-label">re-enter password</label>
+                         <input type="password" name="password-confirm" id="password-confirm" placeholder="re enter password">
+                         <small></small>
+                         </section>
+                         <input type="submit" value="register" id="register-button">
+
+   
+
+         </form>
+
+     </section>
+ </main>
+
+ <script src="./js/main.js" type="module"></script>
+</body>
+</html>
